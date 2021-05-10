@@ -1,0 +1,233 @@
+body {
+  background-image: url("./images/IMG_20210306_172420_287.jpg");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+nav {
+  background-color: transparent;
+  color: #fff;
+  padding: 0 35 0 0;
+  margin-top: 0;
+}
+nav ul {
+  list-style-type: none;
+
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  display: inline-flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style: none;
+}
+nav li {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+nav li :hover {
+  color: red;
+}
+#left {
+  margin-right: auto;
+}
+ol {
+  list-style: none;
+}
+a p {
+  font-family: "Girassol", cursive;
+  text-transform: capitalize;
+}
+.dropdown {
+  background-color: transparent;
+}
+#litera {
+  color: white;
+  font-size: 32px;
+}
+#litera:hover {
+  color: red;
+}
+nav ul li p {
+  margin-right: 100px;
+}
+#dropdownMenuButton1 {
+  color: rgb(121, 0, 68);
+  background-color: transparent;
+  border-style: none;
+}
+#dropdownMenuButton1::after {
+  background-color: transparent;
+}
+#dropdownMenuButton1:hover {
+  color: red;
+}
+footer {
+  background-color: transparent;
+}
+.insta {
+  margin: 0;
+  padding: 0;
+  color: rgb(28, 1, 39);
+  margin: 0;
+
+  font-size: 24px;
+  display: inline-flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.insta p {
+  font-family: "Girassol", cursive;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.dupa {
+  background-color: transparent;
+  max-height: 50vh;
+}
+.dupa2 {
+  max-height: 50vh;
+}
+.dupa2 img {
+  max-height: 50vh;
+}
+/****************************************************************************************************
+CSS for carousel with img as background
+****************************************************************************************************/
+#imgver2 {
+  background-image: url(./images/PicsArt_02-24-06.06.39.jpg);
+  background-image: url(./images/PicsArt_02-24-06.06.39.jpg);
+  max-height: 50vh;
+  max-width: 246.8px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+#imgver3 {
+  background-image: url(./images/PicsArt_02-22-11.52.27.jpg);
+  max-height: 50vh;
+  max-width: 328.8px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+#imgver4 {
+  background-image: url(./images/PicsArt_02-24-06.07.23.jpg);
+  max-height: 50vh;
+  max-width: 246.8px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+#imgver5 {
+  background-image: url(./images/PicsArt_05-07-07.07.41.jpg);
+  max-height: 50vh;
+  max-width: 246.8px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+#imgver6 {
+  background-image: url(./images/PicsArt_05-07-07.08.30.jpg);
+  max-height: 50vh;
+  max-width: 246.8px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+#imgver7 {
+  background-image: url(./images/PicsArt_05-07-07.10.40.jpg);
+  max-height: 50vh;
+  max-width: 246.8px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+/*****************************************************************************************************
+                         End
+*****************************************************************************************************/
+section {
+  height: 36%;
+  /* background-image: url("./images/PicsArt_02-24-06.06.39.jpg");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;*/
+}
+strong {
+  color: 373737;
+}
+
+.form {
+  background-color: transparent;
+  color: rgb(59, 58, 0);
+  border-style: none;
+  transition: all 0.3s linear;
+}
+
+.form:hover {
+  color: rgb(43, 111, 9);
+  background-color: transparent;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+.btn {
+  background-color: transparent;
+}
+#mc_embed_signup {
+  background-color: transparent;
+}
+.clear {
+  border: none;
+}
+.chuj:hover {
+  background-color: transparent;
+}
+.chuj {
+  border: transparent;
+}
+hr {
+  border: 6px solid;
+  border-radius: 5px;
+  border-color: rgb(92, 92, 91);
+}
+
+@media all and (max-width: 800px) {
+  nav ul {
+    display: inline-block;
+    text-align: center;
+  }
+}
+nav ul li p {
+  margin: 0;
+}
+@media only screen and(min-width: 801px) {
+  #litera {
+    color: white;
+    font-size: 32px;
+    margin-right: 100px;
+  }
+}

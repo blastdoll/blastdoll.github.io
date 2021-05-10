@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  display: inline-flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style: none;
+}
+nav li {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+nav li a {
+  text-decoration: none;
+  color: rgb(128, 69, 69);
+}
+nav li :hover {
+  color: red;
+}
+#left {
+  margin-right: auto;
+}
+
+section {
+  background-image: url(./images/PicsArt_02-24-06.06.39.jpg);
+  min-height: 50vh;
+
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  display: grid;
+}
+.zone a {
+  color: rgba(141, 21, 240, 0.638);
+  text-decoration: none;
+  justify-self: right;
+  align-self: flex-end;
+  font-size: 24px;
+}
+.zone a:hover {
+  color: rgba(94, 240, 21, 0.638);
+}
+footer {
+  background-color: transparent;
+  border: transparent;
+}
+
+.insta {
+  margin: 0;
+  padding: 0;
+  color: rgb(28, 1, 39);
+  margin: 0;
+
+  font-size: 24px;
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.insta p {
+  font-family: "Girassol", cursive;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+#mc_embed_signup {
+  background-color: transparent;
+}
+.chuj {
+  background-color: transparent;
+}
+#mc-embedded-subscribe {
+  background-color: transparent;
+  border: transparent;
+}
+#mc-embedded-subscribe:hover {
+  color: rgba(94, 240, 21, 0.638);
+}
+@media only screen and (min-width: 401px) {
+  section {
+    background-image: url(./images/PicsArt_02-24-06.06.39.jpg);
+    min-height: 80vh;
+
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+  }
+}

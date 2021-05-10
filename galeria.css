@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  background-color: blue;
+}
+header {
+  height: 100%;
+  background-color: lime;
+  display: grid;
+  justify-items: center;
+}
+h1 {
+  margin: 0;
+}
+hr {
+  margin: 0;
+}
+#songs {
+  /*display:grid;
+	grid-gap: 10px;
+	/*grid-template-areas: "first second third"
+						"firsta seconda thirda";*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+article {
+  display: grid;
+  transition: all 0.3s linear;
+}
+.fr1 {
+  background-image: url(./images/PicsArt_02-22-11.52.27.jpg);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  display: grid;
+}
+.fr2 {
+  background-image: url(./images/PicsArt_02-24-06.06.39.jpg);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  display: grid;
+}
+.fr3 {
+  background-image: url(./images/PicsArt_02-24-06.07.23.jpg);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  display: grid;
+}
+.fr4 {
+  background-image: url(./images/PicsArt_05-07-07.07.41.jpg);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  display: grid;
+}
+.fr5 {
+  background-image: url(./images/PicsArt_05-07-07.08.30.jpg);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  display: grid;
+}
+.fr6 {
+  background-image: url(./images/PicsArt_05-07-07.10.40.jpg);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  display: grid;
+}
+.fr7 {
+  background-image: url(./images/IMG_20210306_172420_287.jpg);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  display: grid;
+}
+.fr8 {
+  background-image: url(./images/IMG_20210312_003529_604.jpg);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+  display: grid;
+}
+.zone a {
+  color: rgba(141, 21, 240, 0.638);
+  text-decoration: none;
+  justify-self: right;
+  align-self: flex-end;
+  font-size: 64px;
+}
+.zone a:hover {
+  color: rgba(94, 240, 21, 0.638);
+}
+.zone:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+img {
+  justify-self: center;
+}
+p {
+  justify-self: center;
+}
+body {
+  background-color: rgb(250, 226, 231);
+  /* background-image: url("./images/PicsArt_02-24-06.06.39.jpg");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;*/
+}
+
+nav {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  display: inline-flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style: none;
+}
+nav li {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+nav li a {
+  text-decoration: none;
+  color: rgb(128, 69, 69);
+}
+nav li :hover {
+  color: red;
+}
+#left {
+  margin-right: auto;
+}
+@media only screen and (min-width: 992px) {
+  #songs {
+    background-color: rgb(250, 226, 231);
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+      "first second third"
+      "firsta seconda thirda";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
